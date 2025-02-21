@@ -282,13 +282,22 @@ p {
 .name {
     margin-left: 150px;
 }
-.button-container {
-    text-align: center; /* Center the button */
+.card {
+    width: 150px; /* Ensure the card has a fixed width */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-container button {
-    padding: 8px 12px;
+.proceed-btn {
+    padding: 5px 10px;
     font-size: 12px;
-    border-radius: 4px;
-    width: 60%; /* Adjust the width as needed */
+    border-radius: 5px;
+    width: 80px; /* Ensure the button stays small */
 }
