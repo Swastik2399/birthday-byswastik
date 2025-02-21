@@ -283,8 +283,8 @@ p {
     margin-left: 150px;
 }
 .card {
-    width: 80%; /* Adjust width relative to screen */
-    max-width: 300px; /* Prevent it from getting too big */
+    width: 50%; /* Adjust width relative to screen */
+    max-width: 50px; /* Prevent it from getting too big */
     padding: 20px;
     background: white;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
@@ -300,7 +300,7 @@ p {
     font-size: 14px;
     border-radius: 5px;
     width: auto;
-    max-width: 90%;
+    max-width: 50%;
     display: block;
     margin: 10px auto 0; /* Centers it inside */
     }
