@@ -282,3 +282,13 @@ p {
 .name {
     margin-left: 150px;
 }
+.button-container {
+    text-align: center; /* Center the button */
+}
+
+.button-container button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 80%; /* Adjust the width as needed */
+}
