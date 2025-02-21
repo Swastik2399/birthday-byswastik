@@ -99,15 +99,15 @@ body {
 
 /* Add Your Images */
 .frame1 {
-    background: url('your-image1.jpg') center/cover no-repeat;
+    background: url('https://github.com/user-attachments/assets/de5b0ec3-0c2f-4fdd-a13a-901b75147245') center/cover no-repeat;
 }
 
 .frame2 {
-    background: url('your-image2.jpg') center/cover no-repeat;
+    background: url('https://github.com/user-attachments/assets/87e1873e-139e-4af5-9a2c-9d788fd0dd04') center/cover no-repeat;
 }
 
 .frame3 {
-    background: url('your-image3.jpg') center/cover no-repeat;
+    background: url('https://github.com/user-attachments/assets/101e924b-5ba2-4fea-abbc-f7c4eefe696c') center/cover no-repeat;
 }
 
 .frame1 { animation-delay: 0s; }
@@ -131,3 +131,4 @@ body {
     from { transform: translateY(0px); }
     to { transform: translateY(5px); }
 }
+
