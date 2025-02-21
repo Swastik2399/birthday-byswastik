@@ -283,23 +283,24 @@ p {
     margin-left: 150px;
 }
 .card {
-    width: 180px; /* Set a fixed width */
+    width: 80%; /* Adjust width relative to screen */
+    max-width: 300px; /* Prevent it from getting too big */
     padding: 20px;
     background: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+    position: relative;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .proceed-btn {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 6px 12px;
+    font-size: 14px;
     border-radius: 5px;
     width: auto;
     max-width: 90%;
-}
+    display: block;
+    margin: 10px auto 0; /* Centers it inside */
+    }
