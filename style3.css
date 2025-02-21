@@ -131,4 +131,12 @@ body {
     from { transform: translateY(0px); }
     to { transform: translateY(5px); }
 }
-
+.made-by {
+    position: absolute;
+    bottom: 5px; /* Adjust this value to move it further down */
+    right: 10px; /* Adjust to align properly */
+    color: blue;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline if needed */
+    padding: 10px; /* Adds space from the edge */
+}
